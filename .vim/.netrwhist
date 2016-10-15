@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/WaldoWeng/.vim'
+let g:netrw_dirhist_2='/private/etc'
+let g:netrw_dirhist_3='/etc'
+let g:netrw_dirhist_4='/Users/WaldoWeng/Desktop/c++lang/helloworld.dSYM'
+let g:netrw_dirhist_5='/Users/WaldoWeng/work/valgrind_study/basic_memory_leak.dSYM/Contents/Resources/DWARF'
+let g:netrw_dirhist_6='/Users/WaldoWeng/work/spp_2.10.4_final/src/async_frame/src'
+let g:netrw_dirhist_7='/Users/WaldoWeng/work/simple_weibo/test_dir'
+let g:netrw_dirhist_8='/Users/WaldoWeng/work/nginx'
