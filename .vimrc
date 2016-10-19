@@ -29,7 +29,9 @@ set fileencodings=utf-8,gbk
 
 "ctags
 let Tlist_Ctags_Cmd="/usr/local/bin/ctags"
+let Tlist_Show_One_File=1
 set tags=tags;
+set updatetime=300
 
 "key binding
 nmap <F1>   :NERDTreeToggle<CR>
