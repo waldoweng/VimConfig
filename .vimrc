@@ -4,9 +4,10 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-syntastic/syntastic'
+"Plugin 'vim-syntastic/syntastic'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'w0rp/ale'
 call vundle#end()
 
 filetype plugin indent on
@@ -80,6 +81,13 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers=['pylint']
 "let g:syntastic_python_flake8_args='--ignore=E501,F403,F405,W503'
+
+"ale
+let g:ale_sign_column_always=1
+let g:ale_set_highlights=0
+let g:ale_sign_error='✗'
+let g:ale_sign_warning='⚡'
+let g:ale_linters = {'python': ['pylint']}
 
 "rainbow_parentheses.vim
 let g:rbpt_colorpairs = [
